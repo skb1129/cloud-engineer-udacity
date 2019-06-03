@@ -1,0 +1,20 @@
+branch-defaults:
+  master:
+    environment: udagram-dev
+    group_suffix: null
+deploy:
+  artifact: ./www/Archive.zip
+global:
+  application_name: udagram
+  branch: null
+  default_ec2_keyname: udacity_student
+  default_platform: Node.js
+  default_region: us-west-2
+  include_git_submodules: true
+  instance_profile: null
+  platform_name: null
+  platform_version: null
+  profile: eb-cli
+  repository: null
+  sc: git
+  workspace_type: Application
